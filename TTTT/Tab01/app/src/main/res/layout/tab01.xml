@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/all_bg">
+    <Button
+
+        android:id="@+id/img_sign_in"
+        android:textSize="18.0sp"
+        android:textColor="@color/white"
+        android:background="@drawable/green_btn_normal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="签      到"
+        />
+    <Button
+        android:id="@+id/img_leave"
+        android:textSize="18.0sp"
+        android:textColor="@color/white"
+        android:background="@drawable/green_btn_normal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:text="暂      离"
+         />
+    <Button
+        android:id="@+id/img_keep"
+        android:textSize="18.0sp"
+        android:textColor="@color/white"
+        android:background="@drawable/green_btn_normal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:text="续      座"
+        />
+    <Button
+        android:textSize="18.0sp"
+        android:textColor="@color/white"
+        android:id="@+id/img_end"
+        android:background="@drawable/green_btn_normal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:text="结   束   使   用"
+       />
+
+</LinearLayout>

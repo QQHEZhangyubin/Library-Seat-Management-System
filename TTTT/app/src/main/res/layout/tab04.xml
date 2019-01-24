@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:monkey="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_bg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+
+        <com.example.a13608.tab01.View.MiClockView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:padding="5dp"
+            android:layout_centerInParent="true"
+            monkey:backgroundColor="#237EAD"
+            monkey:darkColor="#80ffffff"
+            monkey:lightColor="#ffffff"
+            monkey:textSize="14sp" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/touxiang"
+            android:padding="9dp"
+            app:civ_border_overlay="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/add_pic"
+            app:civ_border_color="@color/colorPrimary" />
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/information"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/bt_data"
+            android:text="修改信息"
+            android:background="#F5FFFA"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginBottom="8dp"
+            android:id="@+id/bt_friend"
+            android:text="         研   友  圈"
+            android:background="#F5FFFA"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_marginBottom="8dp"
+            android:id="@+id/bt_weixin"
+            android:text="         微   信    精     选"
+            android:background="#F5FFFA"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <Button
+            android:layout_marginBottom="8dp"
+            android:id="@+id/bt_shuju"
+            android:text="         数    据   分   析"
+            android:background="#F5FFFA"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <RelativeLayout
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_alignParentBottom="true"
+                android:id="@+id/photo_plan"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:text="照片墙入驻计划"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_alignParentBottom="true"
+                android:id="@+id/yijian"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="反馈意见"
+                android:textColor="#EE2C2C"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

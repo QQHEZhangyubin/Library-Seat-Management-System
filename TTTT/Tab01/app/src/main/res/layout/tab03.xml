@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/all_bg">
+    <!---分界线-->
+    <View
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"/>
+
+    <!---分界线-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自         选         座         位"
+        android:textColor="#050505"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <!---分界线-->
+    <View
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"/>
+
+    <!---分界线-->
+    <!---分界线-->
+    <View
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"/>
+
+    <!---分界线-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/test"/>
+    </ScrollView>
+
+
+
+</LinearLayout>
